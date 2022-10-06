@@ -1,0 +1,85 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'FSM_MSDAP' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : FSM_MSDAP
+Version: L-2016.03-SP3
+Date   : Mon Dec  6 01:11:02 2021
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: ss_1v62_125c   Library: ss_1v62_125c
+Wire Load Model Mode: top
+
+  Startpoint: wakeupSignal_reg
+              (rising edge-triggered flip-flop clocked by sClk)
+  Endpoint: serialRead/rjIndex_reg[3]
+            (falling edge-triggered flip-flop clocked by dClk)
+  Path Group: dClk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock sClk (rise edge)                                648.00     648.00
+  clock network delay (ideal)                             0.00     648.00
+  wakeupSignal_reg/CK (EDFFX2M)                           0.00 #   648.00 r
+  wakeupSignal_reg/Q (EDFFX2M)                            0.38     648.38 f
+  serialRead/wakeupSignal (S2P)                           0.00     648.38 f
+  serialRead/U161/Y (BUFX2M)                              0.43     648.81 f
+  serialRead/U45/Y (NOR2XLM)                              0.46     649.26 r
+  serialRead/U293/Y (AOI21X1M)                            0.24     649.51 f
+  serialRead/U198/Y (INVX2M)                              0.10     649.60 r
+  serialRead/U197/Y (NAND4BX1M)                           0.24     649.85 f
+  serialRead/U196/Y (INVX2M)                              0.13     649.98 r
+  serialRead/U312/Y (NAND2X2M)                            0.11     650.09 f
+  serialRead/U326/Y (NOR2BX2M)                            0.20     650.29 r
+  serialRead/U317/Y (NAND2X2M)                            0.10     650.39 f
+  serialRead/U316/Y (XNOR2X2M)                            0.19     650.57 f
+  serialRead/rjIndex_reg[3]/D (DFFNSRHX1M)                0.00     650.57 f
+  data arrival time                                                650.57
+
+  clock dClk (fall edge)                                651.00     651.00
+  clock network delay (ideal)                             0.00     651.00
+  serialRead/rjIndex_reg[3]/CKN (DFFNSRHX1M)              0.00     651.00 f
+  library setup time                                     -0.11     650.89
+  data required time                                               650.89
+  --------------------------------------------------------------------------
+  data required time                                               650.89
+  data arrival time                                               -650.57
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.31
+
+
+  Startpoint: inReady_reg
+              (rising edge-triggered flip-flop clocked by sClk)
+  Endpoint: inReady (output port clocked by sClk)
+  Path Group: sClk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock sClk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  inReady_reg/CK (EDFFHQX8M)               0.00 #     0.00 r
+  inReady_reg/Q (EDFFHQX8M)                0.24       0.24 f
+  inReady (out)                            0.00       0.24 f
+  data arrival time                                   0.24
+
+  clock sClk (rise edge)                  18.00      18.00
+  clock network delay (ideal)              0.00      18.00
+  output external delay                  -38.00     -20.00
+  data required time                                -20.00
+  -----------------------------------------------------------
+  data required time                                -20.00
+  data arrival time                                  -0.24
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -20.24
+
+
+1

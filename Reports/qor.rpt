@@ -1,0 +1,98 @@
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : qor
+Design : FSM_MSDAP
+Version: L-2016.03-SP3
+Date   : Mon Dec  6 01:11:25 2021
+****************************************
+
+
+  Timing Path Group 'dClk'
+  -----------------------------------
+  Levels of Logic:              10.00
+  Critical Path Length:          2.57
+  Critical Path Slack:           0.31
+  Critical Path Clk Period:   1302.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'sClk'
+  -----------------------------------
+  Levels of Logic:               0.00
+  Critical Path Length:          0.24
+  Critical Path Slack:         -20.24
+  Critical Path Clk Period:     18.00
+  Total Negative Slack:        -43.73
+  No. of Violating Paths:       33.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:         34
+  Hierarchical Port Count:       2340
+  Leaf Cell Count:              85170
+  Buf/Inv Cell Count:           12734
+  Buf Cell Count:               11973
+  Inv Cell Count:                 761
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:     59363
+  Sequential Cell Count:        25807
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:   635484.048283
+  Noncombinational Area:
+                       1668461.719595
+  Buf/Inv Area:         110275.870314
+  Total Buffer Area:        105169.84
+  Total Inverter Area:        5106.04
+  Macro/Black Box Area:      0.000000
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:           2303945.767878
+  Design Area:         2303945.767878
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:         85828
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: engnx04a.utdallas.edu
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                   21.90
+  Logic Optimization:                 66.83
+  Mapping Optimization:               93.09
+  -----------------------------------------
+  Overall Compile Time:              207.71
+  Overall Compile Wall Clock Time:   208.80
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 20.24  TNS: 43.73  Number of Violating Paths: 33
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1

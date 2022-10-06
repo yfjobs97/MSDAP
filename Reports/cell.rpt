@@ -1,0 +1,472 @@
+ 
+****************************************
+Report : cell
+Design : FSM_MSDAP
+Version: L-2016.03-SP3
+Date   : Mon Dec  6 01:11:18 2021
+****************************************
+
+Attributes:
+   BO - reference allows boundary optimization
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+S2PReset_n_reg            EDFFX2M         ss_1v62_125c    61.465599 n
+U205                      INVXLM          ss_1v62_125c    6.585600  
+U206                      OA21XLM         ss_1v62_125c    13.171200 
+U207                      NOR4X2M         ss_1v62_125c    21.952000 
+U208                      INVXLM          ss_1v62_125c    6.585600  
+U209                      CLKINVX2M       ss_1v62_125c    6.585600  
+U210                      AOI2B1X2M       ss_1v62_125c    17.561600 
+U211                      CLKINVX2M       ss_1v62_125c    6.585600  
+U212                      MX2X1M          ss_1v62_125c    19.756800 
+U213                      NAND2X1M        ss_1v62_125c    8.780800  
+U214                      NAND2X1M        ss_1v62_125c    8.780800  
+U215                      MX2XLM          ss_1v62_125c    19.756800 
+U216                      BUFX2M          ss_1v62_125c    8.780800  
+U217                      BUFX2M          ss_1v62_125c    8.780800  
+U218                      BUFX2M          ss_1v62_125c    8.780800  
+U219                      BUFX2M          ss_1v62_125c    8.780800  
+U220                      BUFX2M          ss_1v62_125c    8.780800  
+U221                      BUFX2M          ss_1v62_125c    8.780800  
+U222                      BUFX2M          ss_1v62_125c    8.780800  
+U223                      NAND4X2M        ss_1v62_125c    13.171200 
+U224                      NAND4X2M        ss_1v62_125c    13.171200 
+U225                      NAND4X2M        ss_1v62_125c    13.171200 
+U226                      INVX2M          ss_1v62_125c    6.585600  
+U227                      NAND3X2M        ss_1v62_125c    10.976000 
+U228                      NOR4X1M         ss_1v62_125c    13.171200 
+U229                      NOR4X1M         ss_1v62_125c    13.171200 
+U230                      NOR2X2M         ss_1v62_125c    8.780800  
+U231                      NOR2X2M         ss_1v62_125c    8.780800  
+U232                      NOR2X2M         ss_1v62_125c    8.780800  
+U233                      NOR2X2M         ss_1v62_125c    8.780800  
+U234                      NOR2X2M         ss_1v62_125c    8.780800  
+U235                      NOR2X2M         ss_1v62_125c    8.780800  
+U236                      NOR2X2M         ss_1v62_125c    8.780800  
+U237                      NOR2X2M         ss_1v62_125c    8.780800  
+U238                      NOR2X2M         ss_1v62_125c    8.780800  
+U239                      NOR2X2M         ss_1v62_125c    8.780800  
+U240                      NOR2X2M         ss_1v62_125c    8.780800  
+U241                      NOR2X2M         ss_1v62_125c    8.780800  
+U242                      OAI21X1M        ss_1v62_125c    10.976000 
+U243                      BUFX2M          ss_1v62_125c    8.780800  
+U244                      BUFX2M          ss_1v62_125c    8.780800  
+U245                      BUFX2M          ss_1v62_125c    8.780800  
+U246                      BUFX2M          ss_1v62_125c    8.780800  
+U247                      BUFX2M          ss_1v62_125c    8.780800  
+U248                      BUFX2M          ss_1v62_125c    8.780800  
+U249                      BUFX2M          ss_1v62_125c    8.780800  
+U250                      NAND2X2M        ss_1v62_125c    8.780800  
+U251                      NOR2X2M         ss_1v62_125c    8.780800  
+U252                      INVX2M          ss_1v62_125c    6.585600  
+U253                      INVX2M          ss_1v62_125c    6.585600  
+U254                      NAND2X2M        ss_1v62_125c    8.780800  
+U255                      INVX2M          ss_1v62_125c    6.585600  
+U256                      INVX2M          ss_1v62_125c    6.585600  
+U257                      OAI21X1M        ss_1v62_125c    10.976000 
+U258                      NAND2X2M        ss_1v62_125c    8.780800  
+U259                      NAND4X2M        ss_1v62_125c    13.171200 
+U260                      NAND4X2M        ss_1v62_125c    13.171200 
+U261                      NOR2X2M         ss_1v62_125c    8.780800  
+U262                      INVX2M          ss_1v62_125c    6.585600  
+U263                      NAND3BX2M       ss_1v62_125c    13.171200 
+U264                      INVX2M          ss_1v62_125c    6.585600  
+U265                      NAND2X2M        ss_1v62_125c    8.780800  
+U266                      INVX2M          ss_1v62_125c    6.585600  
+U267                      INVX2M          ss_1v62_125c    6.585600  
+U268                      INVX2M          ss_1v62_125c    6.585600  
+U269                      INVX2M          ss_1v62_125c    6.585600  
+U270                      INVX2M          ss_1v62_125c    6.585600  
+U271                      INVX2M          ss_1v62_125c    6.585600  
+U272                      INVX2M          ss_1v62_125c    6.585600  
+U273                      INVX2M          ss_1v62_125c    6.585600  
+U274                      INVX2M          ss_1v62_125c    6.585600  
+U275                      INVX2M          ss_1v62_125c    6.585600  
+U276                      INVX2M          ss_1v62_125c    6.585600  
+U277                      INVX2M          ss_1v62_125c    6.585600  
+U278                      INVX2M          ss_1v62_125c    6.585600  
+U279                      INVX2M          ss_1v62_125c    6.585600  
+U280                      INVX2M          ss_1v62_125c    6.585600  
+U281                      INVX2M          ss_1v62_125c    6.585600  
+U282                      INVX2M          ss_1v62_125c    6.585600  
+U283                      INVX2M          ss_1v62_125c    6.585600  
+U284                      INVX2M          ss_1v62_125c    6.585600  
+U285                      INVX2M          ss_1v62_125c    6.585600  
+U286                      INVX2M          ss_1v62_125c    6.585600  
+U287                      INVX2M          ss_1v62_125c    6.585600  
+U288                      INVX2M          ss_1v62_125c    6.585600  
+U289                      INVX2M          ss_1v62_125c    6.585600  
+U290                      INVX2M          ss_1v62_125c    6.585600  
+U291                      INVX2M          ss_1v62_125c    6.585600  
+U292                      INVX2M          ss_1v62_125c    6.585600  
+U293                      INVX2M          ss_1v62_125c    6.585600  
+U294                      INVX2M          ss_1v62_125c    6.585600  
+U295                      INVX2M          ss_1v62_125c    6.585600  
+U296                      INVX2M          ss_1v62_125c    6.585600  
+U297                      INVX2M          ss_1v62_125c    6.585600  
+U298                      INVX2M          ss_1v62_125c    6.585600  
+U299                      INVX2M          ss_1v62_125c    6.585600  
+U300                      INVX2M          ss_1v62_125c    6.585600  
+U301                      INVX2M          ss_1v62_125c    6.585600  
+U302                      INVX2M          ss_1v62_125c    6.585600  
+U303                      INVX2M          ss_1v62_125c    6.585600  
+U304                      INVX2M          ss_1v62_125c    6.585600  
+U305                      INVX2M          ss_1v62_125c    6.585600  
+U306                      INVX2M          ss_1v62_125c    6.585600  
+U307                      INVX2M          ss_1v62_125c    6.585600  
+U308                      INVX2M          ss_1v62_125c    6.585600  
+U309                      INVX2M          ss_1v62_125c    6.585600  
+U310                      INVX2M          ss_1v62_125c    6.585600  
+U311                      INVX2M          ss_1v62_125c    6.585600  
+U312                      INVX2M          ss_1v62_125c    6.585600  
+U313                      INVX2M          ss_1v62_125c    6.585600  
+U314                      INVX2M          ss_1v62_125c    6.585600  
+U315                      INVX2M          ss_1v62_125c    6.585600  
+U316                      INVX2M          ss_1v62_125c    6.585600  
+U317                      INVX2M          ss_1v62_125c    6.585600  
+U318                      INVX2M          ss_1v62_125c    6.585600  
+U319                      INVX2M          ss_1v62_125c    6.585600  
+U320                      INVX2M          ss_1v62_125c    6.585600  
+U321                      INVX2M          ss_1v62_125c    6.585600  
+U322                      INVX2M          ss_1v62_125c    6.585600  
+U323                      INVX2M          ss_1v62_125c    6.585600  
+U324                      INVX2M          ss_1v62_125c    6.585600  
+U325                      INVX2M          ss_1v62_125c    6.585600  
+U326                      INVX2M          ss_1v62_125c    6.585600  
+U327                      INVX2M          ss_1v62_125c    6.585600  
+U328                      AOI31X1M        ss_1v62_125c    13.171200 
+U329                      INVX2M          ss_1v62_125c    6.585600  
+U330                      AND2X1M         ss_1v62_125c    10.976000 
+U331                      AND2X2M         ss_1v62_125c    10.976000 
+U332                      AND2X2M         ss_1v62_125c    10.976000 
+U333                      AND2X1M         ss_1v62_125c    10.976000 
+U334                      AND2X1M         ss_1v62_125c    10.976000 
+U335                      AND2X1M         ss_1v62_125c    10.976000 
+U336                      AND2X1M         ss_1v62_125c    10.976000 
+U337                      AND2X2M         ss_1v62_125c    10.976000 
+U338                      AND2X2M         ss_1v62_125c    10.976000 
+U339                      AND2X2M         ss_1v62_125c    10.976000 
+U340                      AND2X1M         ss_1v62_125c    10.976000 
+U341                      AND2X1M         ss_1v62_125c    10.976000 
+U342                      AND2X1M         ss_1v62_125c    10.976000 
+U343                      AND2X1M         ss_1v62_125c    10.976000 
+U344                      AND2X1M         ss_1v62_125c    10.976000 
+U345                      AND2X2M         ss_1v62_125c    10.976000 
+U346                      AND2X2M         ss_1v62_125c    10.976000 
+U347                      AND2X1M         ss_1v62_125c    10.976000 
+U348                      AND2X1M         ss_1v62_125c    10.976000 
+U349                      AND2X1M         ss_1v62_125c    10.976000 
+U350                      AND2X1M         ss_1v62_125c    10.976000 
+U351                      AND2X2M         ss_1v62_125c    10.976000 
+U352                      AND2X2M         ss_1v62_125c    10.976000 
+U353                      AND2X1M         ss_1v62_125c    10.976000 
+U354                      AND2X1M         ss_1v62_125c    10.976000 
+U355                      AND2X1M         ss_1v62_125c    10.976000 
+U356                      AND2X1M         ss_1v62_125c    10.976000 
+U357                      AND2X1M         ss_1v62_125c    10.976000 
+U358                      AND2X2M         ss_1v62_125c    10.976000 
+U359                      AND2X2M         ss_1v62_125c    10.976000 
+U360                      NOR4X1M         ss_1v62_125c    13.171200 
+U361                      NOR4X1M         ss_1v62_125c    13.171200 
+U362                      NOR4X1M         ss_1v62_125c    13.171200 
+U363                      NOR4X1M         ss_1v62_125c    13.171200 
+U364                      NOR4X1M         ss_1v62_125c    13.171200 
+U365                      NOR4X1M         ss_1v62_125c    13.171200 
+U366                      INVX2M          ss_1v62_125c    6.585600  
+U367                      INVX2M          ss_1v62_125c    6.585600  
+U368                      NOR4X1M         ss_1v62_125c    13.171200 
+U369                      NAND2X2M        ss_1v62_125c    8.780800  
+U370                      NAND2X2M        ss_1v62_125c    8.780800  
+U371                      INVX2M          ss_1v62_125c    6.585600  
+U372                      NAND3BX2M       ss_1v62_125c    13.171200 
+U373                      OA21X1M         ss_1v62_125c    13.171200 
+U374                      NAND2X2M        ss_1v62_125c    8.780800  
+U375                      INVX2M          ss_1v62_125c    6.585600  
+U376                      INVX2M          ss_1v62_125c    6.585600  
+U377                      INVX2M          ss_1v62_125c    6.585600  
+U378                      INVX2M          ss_1v62_125c    6.585600  
+U379                      NAND2X2M        ss_1v62_125c    8.780800  
+U380                      INVX2M          ss_1v62_125c    6.585600  
+U381                      INVX2M          ss_1v62_125c    6.585600  
+U382                      NOR3X2M         ss_1v62_125c    10.976000 
+U383                      NAND2X2M        ss_1v62_125c    8.780800  
+U384                      INVX2M          ss_1v62_125c    6.585600  
+U385                      OAI2B2X2M       ss_1v62_125c    17.561600 
+U386                      AOI2B1X1M       ss_1v62_125c    15.366400 
+U387                      AOI21BX2M       ss_1v62_125c    17.561600 
+U388                      INVX2M          ss_1v62_125c    6.585600  
+U389                      AO21XLM         ss_1v62_125c    13.171200 
+U390                      NAND2X2M        ss_1v62_125c    8.780800  
+U391                      MX2XLM          ss_1v62_125c    19.756800 
+U392                      OA21X1M         ss_1v62_125c    13.171200 
+U393                      MX2XLM          ss_1v62_125c    19.756800 
+U394                      OAI21X1M        ss_1v62_125c    10.976000 
+U395                      NOR3X2M         ss_1v62_125c    10.976000 
+U396                      NAND2X2M        ss_1v62_125c    8.780800  
+U397                      INVX2M          ss_1v62_125c    6.585600  
+U398                      OAI211X2M       ss_1v62_125c    13.171200 
+U399                      NOR2X2M         ss_1v62_125c    8.780800  
+U400                      NAND2X2M        ss_1v62_125c    8.780800  
+U401                      OAI21X1M        ss_1v62_125c    10.976000 
+U402                      AOI21X1M        ss_1v62_125c    10.976000 
+U403                      NAND2X2M        ss_1v62_125c    8.780800  
+U404                      NAND2X2M        ss_1v62_125c    8.780800  
+U405                      OAI2BB1X2M      ss_1v62_125c    13.171200 
+U406                      NOR2BX2M        ss_1v62_125c    10.976000 
+U407                      NAND2X2M        ss_1v62_125c    8.780800  
+U408                      OAI21X1M        ss_1v62_125c    10.976000 
+U409                      OA21X1M         ss_1v62_125c    13.171200 
+U410                      NAND2X2M        ss_1v62_125c    8.780800  
+U411                      NAND2X2M        ss_1v62_125c    8.780800  
+U412                      OAI31X1M        ss_1v62_125c    13.171200 
+U413                      NAND4BX1M       ss_1v62_125c    15.366400 
+U414                      OA21X1M         ss_1v62_125c    13.171200 
+U415                      XOR2X2M         ss_1v62_125c    19.756800 
+U416                      NAND3BX2M       ss_1v62_125c    13.171200 
+U417                      NAND3BX2M       ss_1v62_125c    13.171200 
+U418                      OAI22X1M        ss_1v62_125c    13.171200 
+U419                      OAI22X1M        ss_1v62_125c    13.171200 
+U420                      NAND3BX2M       ss_1v62_125c    13.171200 
+U421                      NAND2X2M        ss_1v62_125c    8.780800  
+U422                      NOR2X2M         ss_1v62_125c    8.780800  
+U423                      OA21X1M         ss_1v62_125c    13.171200 
+U424                      OA21X1M         ss_1v62_125c    13.171200 
+U425                      AND2X2M         ss_1v62_125c    10.976000 
+U426                      AND2X2M         ss_1v62_125c    10.976000 
+U427                      AND2X2M         ss_1v62_125c    10.976000 
+U428                      AND2X2M         ss_1v62_125c    10.976000 
+U429                      AND2X2M         ss_1v62_125c    10.976000 
+U430                      AND2X2M         ss_1v62_125c    10.976000 
+U431                      AND2X2M         ss_1v62_125c    10.976000 
+U432                      AND2X2M         ss_1v62_125c    10.976000 
+U433                      AND2X2M         ss_1v62_125c    10.976000 
+U434                      AND2X2M         ss_1v62_125c    10.976000 
+U435                      AND2X2M         ss_1v62_125c    10.976000 
+U436                      AND2X2M         ss_1v62_125c    10.976000 
+U437                      AND2X2M         ss_1v62_125c    10.976000 
+U438                      AND2X2M         ss_1v62_125c    10.976000 
+U439                      AND2X2M         ss_1v62_125c    10.976000 
+U440                      AND2X2M         ss_1v62_125c    10.976000 
+U441                      AND2X2M         ss_1v62_125c    10.976000 
+U442                      AND2X2M         ss_1v62_125c    10.976000 
+U443                      AND2X2M         ss_1v62_125c    10.976000 
+U444                      AND2X2M         ss_1v62_125c    10.976000 
+U445                      AND2X2M         ss_1v62_125c    10.976000 
+U446                      AND2X2M         ss_1v62_125c    10.976000 
+U447                      AND2X2M         ss_1v62_125c    10.976000 
+U448                      AND2X2M         ss_1v62_125c    10.976000 
+U449                      AND2X2M         ss_1v62_125c    10.976000 
+U450                      AND2X2M         ss_1v62_125c    10.976000 
+U451                      AND2X2M         ss_1v62_125c    10.976000 
+U452                      AND2X2M         ss_1v62_125c    10.976000 
+U453                      AND2X2M         ss_1v62_125c    10.976000 
+U454                      AND2X2M         ss_1v62_125c    10.976000 
+U455                      AND2X2M         ss_1v62_125c    10.976000 
+U456                      AND2X2M         ss_1v62_125c    10.976000 
+U457                      AND2X2M         ss_1v62_125c    10.976000 
+U458                      AND2X2M         ss_1v62_125c    10.976000 
+U459                      AND2X2M         ss_1v62_125c    10.976000 
+U460                      AND2X2M         ss_1v62_125c    10.976000 
+U461                      AND2X2M         ss_1v62_125c    10.976000 
+U462                      AND2X2M         ss_1v62_125c    10.976000 
+U463                      AND2X2M         ss_1v62_125c    10.976000 
+U464                      AND2X2M         ss_1v62_125c    10.976000 
+U465                      AND2X2M         ss_1v62_125c    10.976000 
+U466                      AND2X2M         ss_1v62_125c    10.976000 
+U467                      AND2X2M         ss_1v62_125c    10.976000 
+U468                      AND2X2M         ss_1v62_125c    10.976000 
+U469                      AND2X2M         ss_1v62_125c    10.976000 
+U470                      AND2X2M         ss_1v62_125c    10.976000 
+U471                      AND2X2M         ss_1v62_125c    10.976000 
+U472                      AND2X2M         ss_1v62_125c    10.976000 
+U473                      AND2X2M         ss_1v62_125c    10.976000 
+U474                      AND2X2M         ss_1v62_125c    10.976000 
+U475                      AND2X2M         ss_1v62_125c    10.976000 
+U476                      AND2X2M         ss_1v62_125c    10.976000 
+U477                      AND2X2M         ss_1v62_125c    10.976000 
+U478                      AND2X2M         ss_1v62_125c    10.976000 
+U479                      AND2X2M         ss_1v62_125c    10.976000 
+U480                      AND2X2M         ss_1v62_125c    10.976000 
+U481                      AND2X2M         ss_1v62_125c    10.976000 
+U482                      AND2X2M         ss_1v62_125c    10.976000 
+U483                      AND2X2M         ss_1v62_125c    10.976000 
+U484                      AND2X2M         ss_1v62_125c    10.976000 
+U485                      AND2X2M         ss_1v62_125c    10.976000 
+U486                      AND2X2M         ss_1v62_125c    10.976000 
+U487                      AND2X2M         ss_1v62_125c    10.976000 
+U488                      AND2X2M         ss_1v62_125c    10.976000 
+U489                      AND2X2M         ss_1v62_125c    10.976000 
+U490                      AND2X2M         ss_1v62_125c    10.976000 
+U491                      AND2X2M         ss_1v62_125c    10.976000 
+U492                      AND2X2M         ss_1v62_125c    10.976000 
+U493                      AND2X2M         ss_1v62_125c    10.976000 
+U494                      AND2X2M         ss_1v62_125c    10.976000 
+U495                      AND2X2M         ss_1v62_125c    10.976000 
+U496                      AND2X2M         ss_1v62_125c    10.976000 
+U497                      AND2X2M         ss_1v62_125c    10.976000 
+U498                      AND2X2M         ss_1v62_125c    10.976000 
+U499                      AND2X2M         ss_1v62_125c    10.976000 
+U500                      AND2X2M         ss_1v62_125c    10.976000 
+U501                      AND2X2M         ss_1v62_125c    10.976000 
+U502                      AND2X2M         ss_1v62_125c    10.976000 
+U503                      AND2X2M         ss_1v62_125c    10.976000 
+U504                      AND2X2M         ss_1v62_125c    10.976000 
+U505                      NAND2X2M        ss_1v62_125c    8.780800  
+U506                      NAND3BX2M       ss_1v62_125c    13.171200 
+add_293                   FSM_MSDAP_DW01_inc_0            875.884787
+                                                                    BO, h
+calcL                     Calculation_0                   20696.345594
+                                                                    h, n
+calcR                     Calculation_1                   20696.345594
+                                                                    h, n
+coeffLeft                 COEFF_MEM_0                     610474.134665
+                                                                    h, n
+coeffRight                COEFF_MEM_1                     610474.134665
+                                                                    h, n
+dataLeft                  DATA_MEM_0                      486836.074362
+                                                                    h, n
+dataMemReset_nL_reg       DFFRX2M         ss_1v62_125c    50.489601 n
+dataMemReset_nR_reg       DFFRX2M         ss_1v62_125c    50.489601 n
+dataRight                 DATA_MEM_1                      486836.074362
+                                                                    h, n
+finalOutL_reg[0]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[1]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[2]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[3]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[4]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[5]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[6]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[7]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[8]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[9]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[10]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[11]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[12]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[13]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[14]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[15]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[16]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[17]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[18]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[19]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[20]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[21]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[22]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[23]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[24]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[25]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[26]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[27]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[28]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[29]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[30]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[31]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[32]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[33]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[34]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[35]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[36]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[37]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[38]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutL_reg[39]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[0]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[1]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[2]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[3]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[4]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[5]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[6]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[7]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[8]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[9]          EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[10]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[11]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[12]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[13]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[14]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[15]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[16]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[17]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[18]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[19]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[20]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[21]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[22]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[23]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[24]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[25]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[26]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[27]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[28]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[29]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[30]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[31]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[32]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[33]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[34]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[35]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[36]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[37]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[38]         EDFFX2M         ss_1v62_125c    61.465599 n
+finalOutR_reg[39]         EDFFX2M         ss_1v62_125c    61.465599 n
+inReady_reg               EDFFHQX8M       ss_1v62_125c    125.126404
+                                                                    n
+outReady_reg              EDFFX2M         ss_1v62_125c    61.465599 n
+outReady_tri              TBUFX4M         ss_1v62_125c    19.756800 n
+outReady_tri_enable_reg   EDFFX2M         ss_1v62_125c    61.465599 n
+resOut                    resultOutputModule              5318.969673
+                                                                    h, n
+resetCalc_n_reg           EDFFX2M         ss_1v62_125c    61.465599 n
+resetDataDone_n_reg       EDFFX2M         ss_1v62_125c    61.465599 n
+rjLeft                    RJ_MEM_0                        18968.722910
+                                                                    h, n
+rjRight                   RJ_MEM_1                        18966.527710
+                                                                    h, n
+serialRead                S2P                             13118.515303
+                                                                    h, n
+state_reg[0]              DFFSX2M         ss_1v62_125c    50.489601 n
+state_reg[1]              DFFSX1M         ss_1v62_125c    50.489601 n
+state_reg[2]              DFFSX2M         ss_1v62_125c    50.489601 n
+state_reg[3]              DFFRX1M         ss_1v62_125c    50.489601 n
+wakeupSignal_reg          EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[0]          EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[1]          EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[2]          EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[3]          EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[4]          EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[5]          EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[6]          EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[7]          EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[8]          EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[9]          EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[10]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[11]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[12]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[13]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[14]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[15]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[16]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[17]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[18]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[19]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[20]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[21]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[22]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[23]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[24]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[25]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[26]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[27]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[28]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[29]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[30]         EDFFX2M         ss_1v62_125c    61.465599 n
+zeroCount_reg[31]         EDFFX2M         ss_1v62_125c    61.465599 n
+--------------------------------------------------------------------------------
+Total 439 cells                                           2303945.767878
+1
