@@ -1,0 +1,2 @@
+Not change frequency 
+Not change to 800 consecutive 0's

@@ -1,0 +1,2 @@
+RjIndex signal come not coming out
+CoeffIndex count 1 faster
