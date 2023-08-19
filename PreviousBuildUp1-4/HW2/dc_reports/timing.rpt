@@ -1,0 +1,38 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : BitAdder
+Version: L-2016.03-SP3
+Date   : Mon Sep  6 15:34:53 2021
+****************************************
+
+Operating Conditions: ss_1v62_125c   Library: ss_1v62_125c
+Wire Load Model Mode: top
+
+  Startpoint: b0 (input port)
+  Endpoint: carry_out (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b0 (in)                                  0.00       0.00 f
+  adder0/b (fullAdder_0)                   0.00       0.00 f
+  adder0/U3/Y (XOR2X1M)                    0.21       0.21 f
+  adder0/U2/Y (AO22X1M)                    0.44       0.64 f
+  adder0/carry_out (fullAdder_0)           0.00       0.64 f
+  adder1/carry_in (fullAdder_1)            0.00       0.64 f
+  adder1/U2/Y (AO22X1M)                    0.40       1.04 f
+  adder1/carry_out (fullAdder_1)           0.00       1.04 f
+  carry_out (out)                          0.00       1.04 f
+  data arrival time                                   1.04
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

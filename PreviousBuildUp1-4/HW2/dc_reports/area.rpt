@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : BitAdder
+Version: L-2016.03-SP3
+Date   : Mon Sep  6 15:34:53 2021
+****************************************
+
+Library(s) Used:
+
+    ss_1v62_125c (File: /home/eng/y/yxw173630/lib/synopsys/ss_1v62_125c.db)
+
+Number of ports:                           18
+Number of nets:                            21
+Number of cells:                            8
+Number of combinational cells:              6
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          0
+Number of references:                       2
+
+Combinational area:                114.150398
+Buf/Inv area:                        0.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                   114.150398
+Total area:                 undefined
+1

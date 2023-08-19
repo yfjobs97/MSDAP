@@ -1,0 +1,22 @@
+ 
+****************************************
+Report : cell
+Design : BitAdder
+Version: L-2016.03-SP3
+Date   : Mon Sep  6 15:34:53 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+adder0                    fullAdder_0                     57.075199 h
+adder1                    fullAdder_1                     57.075199 h
+--------------------------------------------------------------------------------
+Total 2 cells                                             114.150398
+1
